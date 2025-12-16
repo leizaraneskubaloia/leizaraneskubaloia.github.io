@@ -1,0 +1,251 @@
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 1200px;
+    margin: 2rem auto 3rem auto;
+    padding: 1rem;
+}
+
+.container>.row:first-child {
+    background: #0302FF;
+    border-radius: 999px;
+    padding: 0.35rem 0.75rem;
+    box-shadow: 0 18px 35px rgba(15, 23, 42, 0.35);
+    margin-bottom: 2rem;
+}
+
+.container>.row:first-child .col-sm-2 {
+    text-align: center;
+}
+
+.container>.row:first-child a,
+.container>.row:first-child strong {
+    display: inline-block;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.4rem 0.6rem;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.18s ease-out;
+}
+
+.container>.row:first-child a {
+    color: #e5e7eb;
+}
+
+.container>.row:first-child a:hover {
+    background: rgba(148, 163, 184, 0.25);
+    color: #ffffff;
+}
+
+.container>.row:first-child strong {
+    background: #F9FF00;
+    color: #000032;
+}
+
+/* Day title (28 de diciembre / 29 de diciembre) */
+.container .grupo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin: 0 0 1.5rem 0;
+    padding: 0.35rem 1.25rem;
+    border-radius: 999px;
+    background: #000032 90%;
+    color: #e5e7eb;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.86rem;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.65);
+    position: relative;
+    overflow: hidden;
+}
+
+.container .grupo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.9;
+}
+
+.container .enlace a {
+    font-size: 0.78rem;
+    text-decoration: none;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.container .enlace a:hover {
+    color: #0ea5e9;
+}
+
+/* Table wrapper */
+.container .table-responsive {
+    border-radius: 1.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1.75rem;
+}
+
+/* Teams table */
+.container table.equipos {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.35rem;
+    margin: 0;
+}
+
+.container table.equipos th[scope^="grupo-"] {
+    width: 3.25rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    color: #000032;
+    padding: 0.75rem 0.5rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.45);
+}
+
+.container table.equipos td {
+    background: rgba(15, 23, 42, 0.92);
+    color: #e5e7eb;
+    padding: 0.6rem 0.9rem 0.6rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 0 1rem 1rem 0;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(30, 64, 175, 0.40);
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.65);
+    transform-origin: center left;
+    transition: transform 0.14s ease-out, box-shadow 0.14s ease-out, border-color 0.14s ease-out, background 0.14s ease-out;
+}
+
+.container table.equipos tr:hover td {
+    transform: translateX(4px);
+    background: rgba(15, 23, 42, 0.98);
+    border-color: rgba(56, 189, 248, 0.75);
+    box-shadow: 0 20px 40px rgba(8, 47, 73, 0.9);
+}
+
+.container table.equipos td::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(56, 189, 248, 0.35);
+    mix-blend-mode: screen;
+    opacity: 0.45;
+    pointer-events: none;
+}
+
+.container table.equipos td>div {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.85;
+}
+
+.container table.equipos td>div[style*="float:right"] {
+    float: right;
+    margin-left: 0.75rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background: #000032;
+    border: 1px solid rgba(148, 163, 184, 0.55);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    color: #e5e7eb;
+    text-transform: uppercase;
+}
+
+.container table.equipos td {
+    font-weight: 600;
+}
+
+.container .color-grupo-A1 {
+    background: #f97316;
+    color: #0f172a;
+}
+
+.container .color-grupo-A2 {
+    background: #22c55e;
+    color: #052e16;
+}
+
+.container .color-grupo-B {
+    background: #0ea5e9;
+    color: #02131f;
+}
+
+.container .color-grupo-D {
+    background: #6366f1;
+    color: #000032;
+}
+
+.container .color-grupo-E {
+    background: #ec4899;
+    color: #000032;
+}
+
+.container th.color-grupo-A1,
+.container th.color-grupo-A2,
+.container th.color-grupo-B,
+.container th.color-grupo-D,
+.container th.color-grupo-E {
+    color: #000032;
+}
+
+.container table.equipos th[scope^="grupo-"] {
+    border: 2px solid rgba(15, 23, 42, 0.7);
+}
+
+@media (min-width: 768px) {
+    .container .col-md-6:first-child {
+        padding-right: 1.25rem;
+    }
+
+    .container .col-md-6:last-child {
+        padding-left: 1.25rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .container>.row:first-child {
+        border-radius: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .container>.row:first-child .col-sm-2 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        margin-bottom: 0.3rem;
+    }
+
+    .container table.equipos {
+        border-spacing: 0 0.25rem;
+    }
+
+    .container table.equipos th[scope^="grupo-"] {
+        border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+        margin-bottom: 0.15rem;
+        display: table-cell;
+    }
+
+    .container table.equipos td {
+        font-size: 0.86rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .container table.equipos td>div[style*="float:right"] {
+        font-size: 0.70rem;
+        margin-left: 0.4rem;
+    }
+}

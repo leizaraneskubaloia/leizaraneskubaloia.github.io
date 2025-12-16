@@ -1,37 +1,37 @@
-.andoaincup25 .cancha { color: #000000!important; font-size: 120%; font-style: italic; background-color: #EAFC17; padding: 5px 10px; text-align: center!important;}
-.andoaincup25 .grupo { color: #000000!important; font-size: 120%; font-weight: bold; }
-.andoaincup25 .enlace { color: #000000!important; font-size: 90%; }
-.andoaincup25 table.partidos,
-.andoaincup25 table.clasificacion,
-.andoaincup25 table.equipos { color: #000000!important; }
+.container .cancha { color: #000000!important; font-size: 120%; font-style: italic; background-color: #EAFC17; padding: 5px 10px; text-align: center!important;}
+.container .grupo { color: #000000!important; font-size: 120%; font-weight: bold; }
+.container .enlace { color: #000000!important; font-size: 90%; }
+.container table.partidos,
+.container table.clasificacion,
+.container table.equipos { color: #000000!important; }
 
-.andoaincup25 .color-grupo-A { background-color: #deebf7; }
-.andoaincup25 .color-grupo-B  { background-color: #fff2cc; }
-.andoaincup25 .color-grupo-D  { background-color: #2e75b6; }
-.andoaincup25 .color-grupo-E  { background-color: #c5e0b4; }
-.andoaincup25 .color-grupo-F1 { background-color: #5b9bd5; }
-.andoaincup25 .color-grupo-F2 { background-color: #ffffff; }
-.andoaincup25 .color-grupo-F3 { background-color: #ffff00; }
-.andoaincup25 .color-grupo-F4 { background-color: #ffc000; }
-.andoaincup25 .color-grupo-QF { background-color: #C572FF; }
-.andoaincup25 .color-grupo-SF { background-color: #759EFC; }
-.andoaincup25 .color-grupo-FI { background-color: #00BEB7; }
-.andoaincup25 .ganador { font-weight: bold; }
+.container .color-grupo-A { background-color: #deebf7; }
+.container .color-grupo-B  { background-color: #fff2cc; }
+.container .color-grupo-D  { background-color: #2e75b6; }
+.container .color-grupo-E  { background-color: #c5e0b4; }
+.container .color-grupo-F1 { background-color: #5b9bd5; }
+.container .color-grupo-F2 { background-color: #ffffff; }
+.container .color-grupo-F3 { background-color: #ffff00; }
+.container .color-grupo-F4 { background-color: #ffc000; }
+.container .color-grupo-QF { background-color: #C572FF; }
+.container .color-grupo-SF { background-color: #759EFC; }
+.container .color-grupo-FI { background-color: #00BEB7; }
+.container .ganador { font-weight: bold; }
 
-.andoaincup25 table.partidos td:nth-child(1) { width: 10%; padding: 2px;}
-.andoaincup25 table.partidos td:nth-child(1) div:nth-child(1) { width: 40px; text-align: right; float: left; }
-.andoaincup25 table.partidos td:nth-child(1) div:nth-child(2) { text-align: right; padding-top: 18px; font-size: 80%; }
+.container table.partidos td:nth-child(1) { width: 10%; padding: 2px;}
+.container table.partidos td:nth-child(1) div:nth-child(1) { width: 40px; text-align: right; float: left; }
+.container table.partidos td:nth-child(1) div:nth-child(2) { text-align: right; padding-top: 18px; font-size: 80%; }
 
-.andoaincup25 table.partidos td:nth-child(2) { width: 35%; text-align: right; }
-.andoaincup25 table.partidos td:nth-child(3) { width:  5%; text-align: right; }
-.andoaincup25 table.partidos td:nth-child(4) { width: 1%; text-align: center; padding-left: 0px; padding-right: 0px; }
-.andoaincup25 table.partidos td:nth-child(5) { width:  5%; text-align: right; }
-.andoaincup25 table.partidos td:nth-child(6) { width: 35%; }
+.container table.partidos td:nth-child(2) { width: 35%; text-align: right; }
+.container table.partidos td:nth-child(3) { width:  5%; text-align: right; }
+.container table.partidos td:nth-child(4) { width: 1%; text-align: center; padding-left: 0px; padding-right: 0px; }
+.container table.partidos td:nth-child(5) { width:  5%; text-align: right; }
+.container table.partidos td:nth-child(6) { width: 35%; }
 
-.andoaincup25 table.clasificacion td:nth-child(1) { width: 10%; background-color: rgba(255, 255, 255, 1); font-weight: bold; text-align: right; }
-.andoaincup25 table.clasificacion td:nth-child(2) { width: 48%; }
-.andoaincup25 table.clasificacion td:nth-child(3) { width: 8%; background-color: rgba(255, 255, 255, .7); }
-.andoaincup25 table.clasificacion td:nth-child(4) { width: 8%; background-color: rgba(255, 255, 255, .7); font-weight: bold; }
-.andoaincup25 table.clasificacion td:nth-child(5) { width: 8%; background-color: rgba(255, 255, 255, .7); }
-.andoaincup25 table.clasificacion td:nth-child(6) { width: 8%; background-color: rgba(255, 255, 255, .7); }
-.andoaincup25 table.clasificacion td:nth-child(7) { width: 8%; background-color: rgba(255, 255, 255, .7); }
+.container table.clasificacion td:nth-child(1) { width: 10%; background-color: rgba(255, 255, 255, 1); font-weight: bold; text-align: right; }
+.container table.clasificacion td:nth-child(2) { width: 48%; }
+.container table.clasificacion td:nth-child(3) { width: 8%; background-color: rgba(255, 255, 255, .7); }
+.container table.clasificacion td:nth-child(4) { width: 8%; background-color: rgba(255, 255, 255, .7); font-weight: bold; }
+.container table.clasificacion td:nth-child(5) { width: 8%; background-color: rgba(255, 255, 255, .7); }
+.container table.clasificacion td:nth-child(6) { width: 8%; background-color: rgba(255, 255, 255, .7); }
+.container table.clasificacion td:nth-child(7) { width: 8%; background-color: rgba(255, 255, 255, .7); }
