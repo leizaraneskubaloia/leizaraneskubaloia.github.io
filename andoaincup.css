@@ -6,8 +6,8 @@
 .andoaincup table.equipos { color: #000000!important; }
 .andoaincup .color-grupo-A { background-color: #deebf7; }
 .andoaincup .color-grupo-B  { background-color: #fff2cc; }
-.andoaincup .color-grupo-D  { background-color: #2e75b6; }
-.andoaincup .color-grupo-E  { background-color: #d5e0b4; }
+.andoaincup .color-grupo-C  { background-color: #2e75b6; }
+.andoaincup .color-grupo-D  { background-color: #c5e0b4; }
 .andoaincup .color-grupo-F1 { background-color: #5b9bd5; }
 .andoaincup .color-grupo-F2 { background-color: #78f797; }
 .andoaincup .color-grupo-F3 { background-color: #ffff00; }
@@ -42,4 +42,27 @@
     grid-column: 2; padding-left: 15px;align-self: end; }
 .andoaincup .taldea-herria { 
     grid-column: 2; padding-left: 15px; align-self: start; text-align: right; color: #666; }
-  
+    
+    
+.andoaincup .barra {
+    margin: 15px 0;
+}
+.andoaincup .barra .selected-part {
+    font-weight: bold;
+    background-color: darkblue;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 15px;
+}
+.andoaincup .barra .unselected-part {
+    color: darkblue;
+    text-align: center;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+}
+.andoaincup .barra .unselected-part a {
+    text-decoration: none;
+}
+.andoaincup .barra .unselected-part a:hover {
+    font-weight: bold;
+}
