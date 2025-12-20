@@ -47,18 +47,20 @@
 .andoaincup .barra {
     margin: 15px 0;
 }
+.andoaincup .barra .part {
+    border-radius: 20px;
+    padding: 5px;
+}
 .andoaincup .barra .selected-part {
     font-weight: bold;
     background-color: darkblue;
     color: #FFFFFF;
     text-align: center;
-    border-radius: 15px;
 }
 .andoaincup .barra .unselected-part {
     color: darkblue;
     text-align: center;
     border: 2px solid darkblue;
-    border-radius: 15px;
 }
 .andoaincup .barra .unselected-part a {
     text-decoration: none;
