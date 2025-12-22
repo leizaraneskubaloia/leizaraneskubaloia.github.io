@@ -3,14 +3,16 @@
 .andoaincup .enlace { color: #000000!important; font-size: 90%; }
 .andoaincup table.partidos,
 .andoaincup table.clasificacion,
-.andoaincup table.equipos { color: #000000!important; }
-.andoaincup .color-grupo-A { background-color: #deebf7; }
-.andoaincup .color-grupo-B  { background-color: #fff2cc; }
-.andoaincup .color-grupo-C  { background-color: #2e75b6; }
-.andoaincup .color-grupo-D  { background-color: #c5e0b4; }
-.andoaincup .color-grupo-F1 { background-color: #5b9bd5; }
-.andoaincup .color-grupo-F2 { background-color: #78f797; }
-.andoaincup .color-grupo-F3 { background-color: #ffff00; }
+.andoaincup table.equipos   { color: #000000!important; }
+.andoaincup .color-grupo-A  { background-color: #ccecff; }
+.andoaincup .color-grupo-B  { background-color: #fbe19f; }
+.andoaincup .color-grupo-D  { background-color: #ffd9ff; }
+.andoaincup .color-grupo-E  { background-color: #d9f2d0; }
+.andoaincup .color-grupo-T1 { background-color: #f2efd0; }
+.andoaincup .color-grupo-T2 { background-color: #d0f2f1; }
+.andoaincup .color-grupo-F1 { background-color: #ffff00; }
+.andoaincup .color-grupo-F2 { background-color: #a6e1f8; }
+.andoaincup .color-grupo-F3 { background-color: #ccff66; }
 .andoaincup .color-grupo-F4 { background-color: #ffc000; }
 .andoaincup .color-grupo-QF { background-color: #C572FF; }
 .andoaincup .color-grupo-SF { background-color: #759EFC; }
